@@ -29,5 +29,5 @@ Checklist:
      - [x] - New Midpoint Node
      - [x] - Delete Midpoint Node
      - [x] - Search for a node using value
-   - [] - Queues
-   - [] - Stacks
+   - [ ] - Queues
+   - [ ] - Stacks
