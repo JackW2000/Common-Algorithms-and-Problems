@@ -11,23 +11,23 @@ All code will  be fully commented to explain what is occurring to aid with this 
 Checklist:
 
   Sorting:
-    [x] - Bubble Sort - Python
-    [x] - Insertion Sort - Python
-    [x] - Merge Sort - Python
+   - [x] - Bubble Sort - Python
+   - [x] - Insertion Sort - Python
+   - [x] - Merge Sort - Python
     
   Searching:
-    [x] - Linear Search - Python
-    [x] - Binary Search - Python
+   - [x] - Linear Search - Python
+   - [x] - Binary Search - Python
     
   Data Structures:
-    [x] - Linked List - C
-      [x] - Creation
-      [x] - Traversal
-      [x] - Reversal
-      [x] - New Start Node
-      [x] - New End Node
-      [x] - New Midpoint Node
-      [x] - Delete Midpoint Node
-      [x] - Search for a node using value
-    [] - Queues
-    [] - Stacks
+   - [x] - Linked List - C
+     - [x] - Creation
+     - [x] - Traversal
+     - [x] - Reversal
+     - [x] - New Start Node
+     - [x] - New End Node
+     - [x] - New Midpoint Node
+     - [x] - Delete Midpoint Node
+     - [x] - Search for a node using value
+   - [] - Queues
+   - [] - Stacks
