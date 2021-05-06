@@ -3,6 +3,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//  this is a basic implementation of a linked list structure in C
+//  the linked list here is only linked in one direction, meaning it can only be traversed
+//  in one direction - start to end
+
 //  node structure
 struct node {
     // sata of the node
