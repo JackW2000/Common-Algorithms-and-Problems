@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -20,8 +22,10 @@ int topIndex;
 
 //  function to push value onto the stack
 void push();
+
 //  function to pop a value from the stack
 void pop();
+
 //  function to display the stack following the LIFO structure
 void display();
 
@@ -39,7 +43,7 @@ int main() {
                "2 - Pop off of stack\n"
                "3 - Display stack\n"
                "4 - Exit\n");
-        printf("Enter option:");
+        printf("Enter option: ");
         //  read in selected option
         scanf("%d", &mode);
         //  switch case for the correct functionality based on the option
@@ -76,7 +80,7 @@ void push() {
         printf("Stack underflow (stack is empty)\n");
     } else {
         //  prompt for a value to push
-        printf("Enter a value to push onto the stack:");
+        printf("Enter a value to push onto the stack: ");
         scanf("%d", &element);
         //  increment the index
         topIndex++;

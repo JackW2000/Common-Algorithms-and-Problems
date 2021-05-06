@@ -19,18 +19,25 @@ struct node {
 
 //  function to create the list
 void createNodeList(int n);
+
 //  function to display the list
 void displayList();
+
 //  function to display the list in reverse
 void displayReversedList(struct node *a);
+
 //  assigns new node to be the beginning of the linked list
 void addNewStartNode();
+
 //  assigns new node to be the end of the linked list
 void addNewEndNode();
+
 //  assigns new node to be the midpoint of the linked list
 void addNewMidNode();
+
 //  removes the node at the midpoint of the linked list
 void deleteMidNode();
+
 //  searches for an entity within the list, returning the position and memory location in which it is found, null if not in list
 void listSearch();
 
@@ -65,8 +72,7 @@ void createNodeList(int n) {
     //  initialise startNode using malloc
     startNode = (struct node *) malloc(sizeof(struct node));
     //  verify node creation by validating if memory was allocated
-    if (startNode == NULL)
-    {
+    if (startNode == NULL) {
         printf("Memory can not be allocated.");
     } else {
         printf("Input data for node 1 : ");
