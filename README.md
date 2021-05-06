@@ -30,4 +30,6 @@ Checklist:
      - [x] - Delete Midpoint Node
      - [x] - Search for a node using value
    - [ ] - Queues
+     - [x] - Using an array - C
    - [ ] - Stacks
+     - [x] - Using an array - C
