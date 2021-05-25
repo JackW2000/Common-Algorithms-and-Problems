@@ -11,11 +11,11 @@ I intend on producing multiple implementations for each algorithm/ concept in di
 The table below is a reflection of what is currently implemented and in which languages.
 
 | Category | Algorithm/ Concept | Languages currently implemented |
-| --------- | ----------------- | --------------- |
+| -------- | ------------------ | ------------------------------- |
 | Sorting | Bubble sort | Python, C |
 | Sorting | Insertion sort | Python, C |
 | Sorting | Merge sort | Python|
-| Searching | Linear search | Python |
+| Searching | Linear search | Python, C |
 | Searching | Binary search |  Python |
 | Data structures | Linked list | C |
 | Data structures | Stack | C |

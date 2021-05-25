@@ -33,7 +33,7 @@ int main() {
     printf("Enter number of elements in the array: ");
     scanf("%d", &arrLen);
 
-    printf("Enter %d integers\n", arrLen);
+    printf("Enter %d integers\n\r", arrLen);
 
     for (i = 0; i < arrLen; i++) {
         scanf("%d", &arr[i]);
@@ -41,10 +41,10 @@ int main() {
 
     bubbleSort(arr, arrLen);
 
-    printf("Printing the sorted array:\n");
+    printf("Printing the sorted array:\n\r");
 
     for (i = 0; i < arrLen; i++) {
-        printf("%d\n", arr[i]);
+        printf("%d\n\r", arr[i]);
     }
 
     return 0;
