@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int[] unsortedArr = {10, 5, 60, 54, 1, 57, 19, 954, 15, 30};
         int[] bubbleSortedArr, insertionSortedArr;
-        int index;
+        int linearSearchIndex, binarySearchIndex;
 
         System.out.println("Unsorted array:");
 
@@ -17,11 +17,11 @@ public class Main {
         //  Linear search stuff
         System.out.println("Linear search:");
 
-        index = LinearSearch.linearSearch(unsortedArr, 54);
-        System.out.println(index);
+        linearSearchIndex = LinearSearch.linearSearch(unsortedArr, 54);
+        System.out.println(linearSearchIndex);
 
-        index = LinearSearch.linearSearch(unsortedArr, 9);
-        System.out.println(index);
+        linearSearchIndex = LinearSearch.linearSearch(unsortedArr, 9);
+        System.out.println(linearSearchIndex);
 
         //  Bubble sort stuff
         System.out.println("Bubble sort:");
@@ -39,6 +39,17 @@ public class Main {
 
         for (int i = 0; i < insertionSortedArr.length; i++) {
             System.out.println(i + ": " + insertionSortedArr[i]);
+        }
+
+        //  Binary search stuff
+        System.out.println("Binary search");
+
+        binarySearchIndex = BinarySearch.binarySearch(bubbleSortedArr, 60, 0, bubbleSortedArr.length);
+
+        if (binarySearchIndex == -1) {
+            System.out.println("Value not found in the array.");
+        } else {
+            System.out.println("Value was found at position " + (binarySearchIndex + 1) + " (index " + binarySearchIndex + ")");
         }
     }
 }
