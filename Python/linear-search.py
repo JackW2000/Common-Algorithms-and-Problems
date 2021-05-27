@@ -12,3 +12,17 @@ def linear_search(input_arr, search_for):
 
     # If the entire array is traversed and the value has not been found, return -1
     return -1
+
+
+#   Driver code
+if __name__ == "__main__":
+    my_array = [1, 564, 1123, 9999, 5641, 1234, 5, 14, 89, 445]
+
+    print(my_array)
+
+    index = linear_search(my_array, 9999)
+
+    if index != -1:
+        print("Value found at index " + str(index))
+    else:
+        print("Value not found.")

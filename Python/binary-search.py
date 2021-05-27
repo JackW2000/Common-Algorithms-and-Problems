@@ -37,3 +37,17 @@ def binary_search(input_arr, search_for):
 
     # Return the index value for the item (-1 if not found)
     return index
+
+
+#   Driver code
+if __name__ == "__main__":
+    my_array = [1, 5, 14, 89, 445, 564, 1123, 1234, 5641, 9999]
+
+    print(my_array)
+
+    index = binary_search(my_array, 564)
+
+    if index != -1:
+        print("Value found at index " + str(index))
+    else:
+        print("Value not found.")

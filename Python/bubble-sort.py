@@ -29,3 +29,16 @@ def bubble_sort(input_arr):
 
             # Increment the iteration counter
         iterations += 1
+
+
+#   Driver code
+if __name__ == "__main__":
+    my_array = [1, 564, 1123, 9999, 5641, 1234, 5, 14, 89, 445]
+
+    print("Before sort:")
+    print(my_array)
+
+    bubble_sort(my_array)
+
+    print("After sort:")
+    print(my_array)

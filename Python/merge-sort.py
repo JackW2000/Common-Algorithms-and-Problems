@@ -65,3 +65,16 @@ def merge_sort(input_arr):
             # Increment the right and main array index values
             right_iterator += 1
             main_iterator += 1
+
+
+#   Driver code
+if __name__ == "__main__":
+    my_array = [1, 564, 1123, 9999, 5641, 1234, 5, 14, 89, 445]
+
+    print("Before sort:")
+    print(my_array)
+
+    merge_sort(my_array)
+
+    print("After sort:")
+    print(my_array)

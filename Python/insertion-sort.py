@@ -25,3 +25,16 @@ def insertion_sort(input_arr):
         # Insert current value into the current position as all larger values should now have been
         # incremented, leaving a gap for the value to fill
         input_arr[current_pos] = current_value
+
+
+#   Driver code
+if __name__ == "__main__":
+    my_array = [1, 564, 1123, 9999, 5641, 1234, 5, 14, 89, 445]
+
+    print("Before sort:")
+    print(my_array)
+
+    insertion_sort(my_array)
+
+    print("After sort:")
+    print(my_array)

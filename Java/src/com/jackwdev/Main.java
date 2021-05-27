@@ -5,7 +5,7 @@ public class Main {
     //  Driver code for demonstrating implemented algorithms
     public static void main(String[] args) {
         int[] unsortedArr = {10, 5, 60, 54, 1, 57, 19, 954, 15, 30};
-        int[] bubbleSortedArr, insertionSortedArr;
+        int[] bubbleSortedArr, insertionSortedArr, mergeSortedArr;
         int linearSearchIndex, binarySearchIndex;
 
         System.out.println("Unsorted array:");
@@ -18,10 +18,12 @@ public class Main {
         System.out.println("Linear search:");
 
         linearSearchIndex = LinearSearch.linearSearch(unsortedArr, 54);
-        System.out.println(linearSearchIndex);
 
-        linearSearchIndex = LinearSearch.linearSearch(unsortedArr, 9);
-        System.out.println(linearSearchIndex);
+        if (linearSearchIndex == -1) {
+            System.out.println("Value not found in the array.");
+        } else {
+            System.out.println("Value was found at position " + (linearSearchIndex + 1) + " (index " + linearSearchIndex + ")");
+        }
 
         //  Bubble sort stuff
         System.out.println("Bubble sort:");
@@ -50,6 +52,17 @@ public class Main {
             System.out.println("Value not found in the array.");
         } else {
             System.out.println("Value was found at position " + (binarySearchIndex + 1) + " (index " + binarySearchIndex + ")");
+        }
+
+        //  Merge sort stuff
+        System.out.println("Merge sort");
+
+        mergeSortedArr = unsortedArr.clone();
+
+        MergeSort.mergeSort(mergeSortedArr);
+
+        for (int i = 0; i < mergeSortedArr.length; i++) {
+            System.out.println(i + ": " + mergeSortedArr[i]);
         }
     }
 }

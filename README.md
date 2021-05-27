@@ -14,9 +14,9 @@ The table below is a reflection of what is currently implemented and in which la
 | -------- | ------------------ | ------------------------------- |
 | Sorting | Bubble sort | Python, C, Java |
 | Sorting | Insertion sort | Python, C, Java |
-| Sorting | Merge sort | Python |
+| Sorting | Merge sort | Python, Java |
 | Searching | Linear search | Python, C, Java |
 | Searching | Binary search |  Python, C, Java |
 | Data structures | Linked list | C |
 | Data structures | Stack | C |
-| Data structures | Queue | C |
+| Data structures | Queue | C, Python (Array only) |
