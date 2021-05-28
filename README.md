@@ -12,11 +12,11 @@ The table below is a reflection of what is currently implemented and in which la
 
 | Category | Algorithm/ Concept | Languages currently implemented |
 | -------- | ------------------ | ------------------------------- |
-| Sorting | Bubble sort | Python, C, Java |
-| Sorting | Insertion sort | Python, C, Java |
-| Sorting | Merge sort | Python, Java |
-| Searching | Linear search | Python, C, Java |
-| Searching | Binary search |  Python, C, Java |
+| Sorting | Bubble sort | Python, C, Java, Kotlin |
+| Sorting | Insertion sort | Python, C, Java, Kotlin |
+| Sorting | Merge sort | Python, Java, Kotlin |
+| Searching | Linear search | Python, C, Java, Kotlin |
+| Searching | Binary search |  Python, C, Java, Kotlin |
 | Data structures | Linked list | C |
 | Data structures | Stack | C |
 | Data structures | Queue | C, Python (Array only) |
