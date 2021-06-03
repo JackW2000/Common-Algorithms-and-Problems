@@ -2,7 +2,7 @@ class Queue:
     #   Function to initialise a queue object
     def __init__(self, max_len):
         #   Define the queue as an array
-        self.queue = []
+        self.queue = [max_len]
         #   Initialise the front and end of the queue as 0
         self.head = self.tail = 0
         #   Define the maximum length of the queue
@@ -37,7 +37,7 @@ class Queue:
     #   Function to output all values in the queue in order
     def display(self):
         #   Verify that there is data in the queue
-        if self.head != self.tail:
+        if self.head is not None:
             #   For loop for the length of the array to output the values
             for i in range(0, self.tail, 1):
                 print("Position " + str(i) + " holds " + str(self.queue[i]))
