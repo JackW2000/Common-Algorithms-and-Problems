@@ -23,7 +23,7 @@ class Queue:
     #   Function to remove an item from the front of the queue
     def dequeue(self):
         #   Verify that the queue is not empty
-        if self.head != self.tail:
+        if self.head is not None:
             #   Output that the value has left the queue
             print(str(self.queue[0]) + " has been removed from the start of the queue.")
             #   Remove the value (.pop is used as it accepts an index whereas .remove accepts a value)
