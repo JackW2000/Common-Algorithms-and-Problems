@@ -2,10 +2,10 @@
 
 This repo will contain commonly requested algorithms and coding problems for coding interviews.
 
-I will be using this as an opportunity to practice my owen implementation skills and to improve my coding ability.
-It is my hope that others may utilise the code to aid with their own understanding too.
+I will be using this as an opportunity to practice my own implementation skills and to improve my coding ability.
+I hope that others may utilise the code to aid with their own understanding.
 
-All code will be fully commented to explain what is occurring to aid with this educational task.
+All code will be fully commented to aid with this educational task.
 I intend on producing multiple implementations for each algorithm/ concept in different languages over time.
 
 The table below is a reflection of what is currently implemented and in which languages.
@@ -13,7 +13,7 @@ The table below is a reflection of what is currently implemented and in which la
 | Category | Algorithm/ Concept | Languages currently implemented |
 | -------- | ------------------ | ------------------------------- |
 | Sorting | Bubble sort | C, Python, Java, Kotlin, Go |
-| Sorting | Insertion sort | C, Python, Java, Kotlin |
+| Sorting | Insertion sort | C, Python, Java, Kotlin, Go |
 | Sorting | Merge sort | Python, Java, Kotlin |
 | Searching | Linear search | C, Python, Java, Kotlin, Go |
 | Searching | Binary search | C, Python, Java, Kotlin |
