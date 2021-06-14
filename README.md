@@ -26,5 +26,5 @@ The table below is a reflection of what is currently implemented and in which la
 | Data structures | Hash Table |  |
 | Data structures | Tree |  |
 | Data structures | Graph |  |
-| Other | Recursion |  |
+| Other | Recursion | Python |
 | Other | Bit manipulation |  |
