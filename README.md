@@ -10,13 +10,21 @@ I intend on producing multiple implementations for each algorithm/ concept in di
 
 The table below is a reflection of what is currently implemented and in which languages.
 
-| Category | Algorithm/ Concept | Languages currently implemented |
-| -------- | ------------------ | ------------------------------- |
+| Category | Algorithm/ Concept | Languages implemented |
+| -------- | ------------------ | --------------------- |
 | Sorting | Bubble sort | C, Python, Java, Kotlin, Go |
 | Sorting | Insertion sort | C, Python, Java, Kotlin, Go |
 | Sorting | Merge sort | C, Python, Java, Kotlin |
+| Sorting | Quick sort |  |
+| Sorting | Heap sort |  |
+| Sorting | Selection sort |  |
 | Searching | Linear search | C, Python, Java, Kotlin, Go |
 | Searching | Binary search | C, Python, Java, Kotlin |
 | Data structures | Linked list | C, Python |
 | Data structures | Stack (Array and Linked List) | C, Python |
 | Data structures | Queue (Array and Linked List) | C, Python |
+| Data structures | Hash Table |  |
+| Data structures | Tree |  |
+| Data structures | Graph |  |
+| Other | Recursion |  |
+| Other | Bit manipulation |  |
