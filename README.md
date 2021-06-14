@@ -15,7 +15,7 @@ The table below is a reflection of what is currently implemented and in which la
 | Sorting | Bubble sort | C, Python, Java, Kotlin, Go |
 | Sorting | Insertion sort | C, Python, Java, Kotlin, Go |
 | Sorting | Merge sort | C, Python, Java, Kotlin |
-| Sorting | Quick sort |  |
+| Sorting | Quick sort | C |
 | Sorting | Heap sort |  |
 | Sorting | Selection sort |  |
 | Searching | Linear search | C, Python, Java, Kotlin, Go |

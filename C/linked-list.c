@@ -9,7 +9,7 @@
 
 //  node structure
 struct node {
-    // sata of the node
+    //  data of the node
     int num;
     //  address of the next node
     struct node *nextPtr;
