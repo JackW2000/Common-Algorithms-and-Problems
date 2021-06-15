@@ -24,7 +24,7 @@ The table below is a reflection of what is currently implemented and in which la
 | Data structures | Stack (Array and Linked List) | C, Python |
 | Data structures | Queue (Array and Linked List) | C, Python |
 | Data structures | Hash Table |  |
-| Data structures | Tree |  |
+| Data structures | Tree | Python (Partial) |
 | Data structures | Graph |  |
 | Other | Recursion | Python |
 | Other | Bit manipulation |  |
