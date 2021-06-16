@@ -44,6 +44,36 @@ class Tree:
             #   If it does, repeat this process until the lowest depth right node is found
             self.right_node.printTree()
 
+    #   Function for inserting a new root node
+    def new_root(self, data):
+        temp = self.data
+        self.data = data
+        self.insert(temp)
+
+    #   Function will print the data of the root node for the tree
+    #   This will also output left and right node data
+    def printRoot(self):
+        print("Root node details:")
+        if self.data is not None:
+            if self.left_node is not None and self.right_node is not None:
+                print("Data:", self.data,
+                      "\nLeft node:", self.left_node.data,
+                      "\nRight node:", self.right_node.data)
+            elif self.left_node is not None and self.right_node is None:
+                print("Data:", self.data,
+                      "\nLeft node:", self.left_node.data,
+                      "\nRight node: None")
+            elif self.left_node is None and self.right_node is not None:
+                print("Data:", self.data,
+                      "\nLeft node: None",
+                      "\nRight node:", self.right_node.data)
+            else:
+                print("Data:", self.data,
+                      "\nLeft node: None",
+                      "\nRight node: None")
+        else:
+            print("Tree is empty.")
+
 
 #   Driver code
 if __name__ == "__main__":
@@ -51,10 +81,18 @@ if __name__ == "__main__":
     tree.printTree()
     print()
     print()
+    tree.printRoot()
+    print()
     tree.insert("D")
     tree.insert("P")
     tree.insert("A")
     tree.insert("B")
+    tree.insert("R")
     tree.printTree()
     print()
     print()
+    tree.new_root("Z")
+    tree.printTree()
+    print()
+    print()
+    tree.printRoot()
