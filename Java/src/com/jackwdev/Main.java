@@ -121,5 +121,28 @@ public class Main {
         }
 
         System.out.println();
+
+        //  Re-initialise unsorted array
+        unsortedArr = new int[]{554, 4, 78, 21, 3, 45, 11, 19, 42, 72};
+
+        //  Print unsorted array
+        System.out.println("Unsorted array:");
+
+        for (int i = 0; i < unsortedArr.length; i++) {
+            System.out.println(i + ": " + unsortedArr[i]);
+        }
+
+        System.out.println();
+
+        //  Quick sort stuff
+        System.out.println("Quick sort:");
+
+        QuickSort.quickSort(unsortedArr, 0, unsortedArr.length - 1);
+
+        for (int i = 0; i < unsortedArr.length; i++) {
+            System.out.println(i + ": " + unsortedArr[i]);
+        }
+
+        System.out.println();
     }
 }
