@@ -2,7 +2,7 @@ package com.jackwdev;
 
 public class BubbleSort {
     //  Declare method to perform the sort, taking an array as param
-    public static int[] bubbleSort(int[] arr) {
+    public static void bubbleSort(int[] arr) {
         //  Bubble sort: Works from left to right, moving the largest value to the correct position in each pass.
         //  Time Complexity: Best - O(n) Average - O(n^2) Worst - O(n^2)
 
@@ -24,8 +24,5 @@ public class BubbleSort {
                 }
             }
         }
-
-        //  Return the sorted array
-        return arr;
     }
 }

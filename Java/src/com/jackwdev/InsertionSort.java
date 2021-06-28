@@ -2,7 +2,7 @@ package com.jackwdev;
 
 public class InsertionSort {
     //  Declare method to perform the sort, taking an array as param
-    public static int[] insertionSort(int[] arr){
+    public static void insertionSort(int[] arr){
         //  Insertion sort: Works from left to right, moving the current index value to the correct position in each pass.
         //  Time Complexity: Best - O(n) Average - O(n^2) Worst - O(n^2)
 
@@ -31,9 +31,6 @@ public class InsertionSort {
             //  Move current value into second indexer + 1 to place in correct position
             arr[j + 1] = current;
         }
-
-        //  Return the sorted array
-        return arr;
     }
 
 }
