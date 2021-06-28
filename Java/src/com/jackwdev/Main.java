@@ -99,6 +99,27 @@ public class Main {
 
         System.out.println();
 
-        
+        //  Re-initialise unsorted array
+        unsortedArr = new int[]{5, 45, 755, 4, 453, 7, 55, 47, 11, 17};
+
+        //  Print unsorted array
+        System.out.println("Unsorted array:");
+
+        for (int i = 0; i < unsortedArr.length; i++) {
+            System.out.println(i + ": " + unsortedArr[i]);
+        }
+
+        System.out.println();
+
+        //  Selection sort stuff
+        System.out.println("Selection sort:");
+
+        SelectionSort.selectionSort(unsortedArr);
+
+        for (int i = 0; i < unsortedArr.length; i++) {
+            System.out.println(i + ": " + unsortedArr[i]);
+        }
+
+        System.out.println();
     }
 }

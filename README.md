@@ -17,7 +17,7 @@ The table below is a reflection of what is currently implemented and in which la
 | Sorting | Merge sort | C, Python, Java, Kotlin |
 | Sorting | Quick sort | C, Python |
 | Sorting | Heap sort |  |
-| Sorting | Selection sort | C, Python |
+| Sorting | Selection sort | C, Python, Java |
 | Searching | Linear search | C, Python, Java, Kotlin, Go |
 | Searching | Binary search | C, Python, Java, Kotlin |
 | Data structures | Linked list | C, Python |
