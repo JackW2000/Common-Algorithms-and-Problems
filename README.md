@@ -25,6 +25,6 @@ The table below is a reflection of what is currently implemented and in which la
 | Data structures | Queue (Array and Linked List) | C, Python |
 | Data structures | Hash Table |  |
 | Data structures | Tree | Python |
-| Data structures | Graph |  |
+| Data structures | Graph | Python (Undirected) |
 | Other | Recursion | C, Python |
 | Other | Bit manipulation |  |
