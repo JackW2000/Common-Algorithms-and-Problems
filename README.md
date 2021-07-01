@@ -27,4 +27,4 @@ The table below is a reflection of what is currently implemented and in which la
 | Data structures | Tree | Python |
 | Data structures | Graph | Python |
 | Other | Recursion | C, Python |
-| Other | Bit manipulation |  |
+| Other | Bit manipulation | c (AND, OR, XOR, NOT) |
