@@ -58,4 +58,12 @@ func main() {
 	insertionSortBeta(arr)
 	fmt.Println("Array after insertion sort beta:")
 	fmt.Println(arr)
+
+	//	Merge sort stuff
+	arr = []int{54, 2, 75, 67, 546, 67, 84, 5, 43, 7}
+	fmt.Println("Array before merge sort:")
+	fmt.Println(arr)
+	arr = mergeSort(arr)
+	fmt.Println("Array after merge sort:")
+	fmt.Println(arr)
 }
