@@ -79,4 +79,32 @@ fun main(args: Array<String>) {
     } else {
         println("Value found at position ${index + 1} (index: $index)")
     }
+
+    //  Quick sort stuff
+
+    //  Alpha is a similar implementation to that in the Java
+    println("Quick sort alpha:")
+
+    arr = intArrayOf(546, 4, 345, 76, 5, 678, 12, 1, 75, 3)
+
+    println("Unsorted array:")
+    println(arr.contentToString())
+
+    QuickSort.quickSortAlpha(arr, 0, arr.size - 1)
+
+    println("Sorted array:")
+    println(arr.contentToString())
+
+    //  Beta utilises inbuilt functions within Kotlin but does not work in place
+    println("Quick sort beta:")
+
+    arr = intArrayOf(45, 786, 4, 6456, 87, 6, 786, 3, 5, 47)
+
+    println("Unsorted array:")
+    println(arr.contentToString())
+
+    arr = QuickSort.quickSortBeta(arr)
+
+    println("Sorted array:")
+    println(arr.contentToString())
 }
