@@ -107,4 +107,32 @@ fun main(args: Array<String>) {
 
     println("Sorted array:")
     println(arr.contentToString())
+
+    //  Selection sort stuff
+
+    //  Alpha is a similar implementation to that in the Java
+    println("Selection sort alpha:")
+
+    arr = intArrayOf(46, 4, 777, 12, 35, 45, 5, 1, 71115, 233)
+
+    println("Unsorted array:")
+    println(arr.contentToString())
+
+    SelectionSort.selectionSortAlpha(arr)
+
+    println("Sorted array:")
+    println(arr.contentToString())
+
+    //  Beta utilises inbuilt functions within Kotlin
+    println("Selection sort beta:")
+
+    arr = intArrayOf(7, 6, 34, 31, 3, 4, 417, 33, 25, 3)
+
+    println("Unsorted array:")
+    println(arr.contentToString())
+
+    SelectionSort.selectionSortBeta(arr)
+
+    println("Sorted array:")
+    println(arr.contentToString())
 }
