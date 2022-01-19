@@ -144,5 +144,49 @@ public class Main {
         }
 
         System.out.println();
+
+        // LinkedList stuff
+
+        System.out.println("Linked List:");
+
+        Node nodeA = new Node(10);
+        LinkedList link = new LinkedList(nodeA);
+
+        System.out.println("First node value: " + link.getFirstNode().getValue());
+        System.out.println("Last node value: " + link.getLastNode().getValue());
+        System.out.println("List length: " + link.getListLength());
+        link.printLinkedList();
+
+        link.appendNode(new Node(20));
+        link.appendNodeByValue(30);
+        link.appendNode(new Node(40));
+        link.appendNodeByValue(50);
+
+        System.out.println("First node value: " + link.getFirstNode().getValue());
+        System.out.println("Last node value: " + link.getLastNode().getValue());
+        System.out.println("List length: " + link.getListLength());
+        link.printLinkedList();
+
+        link.prependNode(new Node(0));
+        link.prependNodeByValue(10);
+        link.prependNode(new Node(-20));
+        link.prependNodeByValue(-30);
+
+        System.out.println("First node value: " + link.getFirstNode().getValue());
+        System.out.println("Last node value: " + link.getLastNode().getValue());
+        System.out.println("List length: " + link.getListLength());
+        link.printLinkedList();
+
+        link.removeFirstNode();
+        System.out.println("First node value: " + link.getFirstNode().getValue());
+        System.out.println("Last node value: " + link.getLastNode().getValue());
+        System.out.println("List length: " + link.getListLength());
+        link.printLinkedList();
+
+        link.removeEndNode();
+        System.out.println("First node value: " + link.getFirstNode().getValue());
+        System.out.println("Last node value: " + link.getLastNode().getValue());
+        System.out.println("List length: " + link.getListLength());
+        link.printLinkedList();
     }
 }
