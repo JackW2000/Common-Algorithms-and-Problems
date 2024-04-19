@@ -1,5 +1,11 @@
 # Common-Algorithms-and-Problems
 
+
+Important notice - As of April 2024 I am deprecating this repository in favour of separate repos for each language with more robust examples and explanations.
+
+This repo will remain live until I have ported out all existing implementations into their updated repositories, at which time I will phase out this repo.
+
+
 This repo will contain commonly requested algorithms and coding problems for coding interviews.
 
 I will be using this as an opportunity to practice my own implementation skills and to improve my coding ability.
